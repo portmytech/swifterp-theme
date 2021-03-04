@@ -14,7 +14,7 @@ with open('bdtheme/__init__.py', 'rb') as f:
                 f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='sstheme',
+	name='bdtheme',
 	version=version,
 	description='theme',
 	author='portmytech',
