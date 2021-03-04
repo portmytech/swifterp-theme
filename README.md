@@ -1,6 +1,6 @@
-## bd theme
+## Swifterp theme
 
-bd theme
+Swifterp theme
 
 #### License
 
