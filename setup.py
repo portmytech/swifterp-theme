@@ -9,16 +9,16 @@ with open('requirements.txt') as f:
 # get version from __version__ variable in bdtheme/__init__.py
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('bdtheme/__init__.py', 'rb') as f:
+with open('theme/__init__.py', 'rb') as f:
         version = str(ast.literal_eval(_version_re.search(
                 f.read().decode('utf-8')).group(1)))
 
 setup(
-	name='bdtheme',
+	name='theme',
 	version=version,
-	description='bd theme',
-	author='vinhbk2000',
-	author_email='vinhbk2000@gmail.com',
+	description='theme',
+	author='portmytech',
+	author_email='portmytech@gmail.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
